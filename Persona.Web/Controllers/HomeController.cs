@@ -15,11 +15,26 @@ namespace Persona.Web.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
+            
             return View();
         }
-
+        public ActionResult Article(int id)
+        {
+            return View();
+        }
+        public ActionResult Articles()
+        {
+            return View();
+        }
+        public ActionResult Event(int id)
+        {
+            return View();
+        }
+        public ActionResult Events()
+        {
+           
+            return View();
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
